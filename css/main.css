@@ -1,0 +1,35 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.jumbotron {
+  padding: 200px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #558C89;
+  color: white;
+  text-align: center;
+}
+
+.row-video {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  align-items: center;
+}
+
+.row-face2face {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  align-items: center;
+}
+
+.content-bg {
+  background-color: #D9853B;
+  margin: 30px 0px;
+  max-width: 100%;
+  padding: 30px 15px;
+}
