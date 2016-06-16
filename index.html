@@ -20,6 +20,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href="carousel.css" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -53,7 +54,7 @@
           </nav>
         </div>
 
-        <div class="jumbotron">
+<!--         <div class="jumbotron">
           <div class="container">
             <h1>SEE A THERAPIST</h1>
             </br>
@@ -65,6 +66,60 @@
             </br>
             <a href="#" class="btn btn-default btn-lg btn-success" role="button">Sign up for Apollo</a>
           </div>
+        </div> -->
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="myCarousel" data-slide-to="1"></li>
+            <li data-target="myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            
+            <div class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>See a therapist</h1>
+                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                  <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Earn extra money</h1>
+                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                  <p><a class="btn btn-lg btn-success" href="#" role="button">Become a partner today</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>From the comfort of your home</h1>
+                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                  <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
         </div>
 
         <div class="container">
@@ -74,25 +129,39 @@
           <div class="row featurette">
             <div class="col-md-7">
               <h2 class="featurette-heading">Video Consultation. <span class="text-muted">Whenever. Wherever.</span></h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Book an appointment &raquo;</a></p>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
-            <div class="col-md-5 Aligner">
-              <img class="featurette-image img-responsive center-block" src="\tile-wide.png" alt="This will be a video">
+            <div class="col-md-5">
+              <div class="Aligner">
+                <div class="Aligner-item">
+                  <img class="featurette-image img-responsive center-block" src="\tile-wide.png" alt="This will be a video">
+                </div>
+              </div>
             </div>
+          </div>
+          
+          <div class="row" align="center">
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Book an appointment &raquo;</a></p>
           </div>
 
           <hr class="featurette-divider">
 
           <div class="row featurette">
             <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">Face to Face Consultation. <span class="text-muted">Find a therapist nearby</span></h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Book an appointment &raquo;</a></p>
+              <h2 class="featurette-heading">Face to Face. <span class="text-muted">Find a therapist nearby</span></h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
-            <div class="col-md-5 col-md-pull-7 Aligner">
-              <img class="featurette-image img-responsive center-block" src="\tile-wide.png" alt="This will also be a video">
+            <div class="col-md-5 col-md-pull-7">
+              <div class="Aligner">
+                <div class="Aligner-item">
+                  <img class="featurette-image img-responsive center-block" src="\tile-wide.png" alt="This will be a video">
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="row" align="center">
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Book an appointment &raquo;</a></p>
           </div>
 
           <hr class="featurette-divider">
