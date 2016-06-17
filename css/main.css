@@ -5,12 +5,10 @@
    ========================================================================== */
 
 .jumbotron {
-  padding: 150px 15px;
+  padding: 200px 15px;
   margin-bottom: 30px;
   color: inherit;
   background: url("/pexels-photo-large.jpeg") center center no-repeat;
-  color: white;
-  text-align: center;
 }
 
 .Aligner {
@@ -23,8 +21,21 @@
   max-width: 50%;
 }
 
-body { padding-top: 50px; }
+body { padding-top: 60px; }
 
 .navbar {
     opacity: 0.8;
+    min-height: 60px;
+}
+
+.navbar-brand {
+	padding: 0 15px; height: 60px; line-height: 60px;
+}
+
+.navbar-nav li a {
+ line-height: 30px;
+}
+
+.navbar-nav li {
+	font-size: 125%;
 }
