@@ -8,10 +8,10 @@
   padding: 150px 15px;
   margin-bottom: 30px;
   color: inherit;
+  background: url("/pexels-photo-large.jpeg") center center no-repeat;
   background-color: #558C89;
   color: white;
   text-align: center;
-  background-image: url(pexels-photo-109920.jpeg);
 }
 
 .Aligner {
