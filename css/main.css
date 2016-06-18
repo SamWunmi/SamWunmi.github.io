@@ -80,3 +80,44 @@ body { padding-top: 60px; }
     font-size: 63px;
   }
 }
+
+.loginJumbotron {
+  padding-top: 350px;
+  padding-bottom: 48px;
+  margin-bottom: 30px;
+  color: inherit;
+  background: url("/pexels-photo-26960.jpg") center center no-repeat;
+}
+.loginJumbotron h1,
+.loginJumbotron .h1 {
+  color: inherit;
+}
+.loginJumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.loginJumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .loginJumbotron,
+.container-fluid .loginJumbotron {
+  border-radius: 6px;
+}
+.loginJumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .loginJumbotron {
+    /*padding: 48px 0;*/
+  }
+  .container .loginJumbotron,
+  .container-fluid .loginJumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .loginJumbotron h1,
+  .loginJumbotron .h1 {
+    font-size: 63px;
+  }
+}
