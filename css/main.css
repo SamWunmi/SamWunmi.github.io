@@ -82,11 +82,12 @@ body { padding-top: 60px; }
 }
 
 .loginJumbotron {
+  padding-top: 900px;
   padding-bottom: 48px;
   margin-bottom: 30px;
   color: inherit;
   background: url("/pexels-photo-26960.jpg") center center no-repeat;
-  max-height: 100%;
+  overflow-y: hidden;
 }
 .loginJumbotron h1,
 .loginJumbotron .h1 {
