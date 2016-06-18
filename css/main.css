@@ -82,7 +82,7 @@ body { padding-top: 60px; }
 }
 
 .loginJumbotron {
-  padding-top: 1100px;
+  padding-top: 100%;
   padding-bottom: 48px;
   margin-bottom: 30px;
   color: inherit;
