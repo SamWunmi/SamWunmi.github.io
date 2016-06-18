@@ -39,3 +39,44 @@ body { padding-top: 60px; }
 .navbar-nav li {
 	font-size: 125%;
 }
+
+.partnersJumbotron {
+  padding-top: 350px;
+  padding-bottom: 48px;
+  margin-bottom: 30px;
+  color: inherit;
+  background: url("/pexels-photo-24649 large.jpg") center center no-repeat;
+}
+.partnersJumbotron h1,
+.partnersJumbotron .h1 {
+  color: inherit;
+}
+.partnersJumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.partnersJumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .partnersJumbotron,
+.container-fluid .partnersJumbotron {
+  border-radius: 6px;
+}
+.partnersJumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .partnersJumbotron {
+    /*padding: 48px 0;*/
+  }
+  .container .partnersJumbotron,
+  .container-fluid .partnersJumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .partnersJumbotron h1,
+  .partnersJumbotron .h1 {
+    font-size: 63px;
+  }
+}
