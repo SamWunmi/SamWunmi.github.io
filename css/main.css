@@ -130,6 +130,6 @@ body {
 }
 
 .login-form {
-	max-width: 30%;
 	margin: 0 auto;
+	padding: 0 350px;
 }
