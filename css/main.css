@@ -127,9 +127,9 @@ body {
 
 .form-signin {
 	padding-bottom: 650px;
-	max-width: 50%;
 }
 
 .login-form {
-	align-items: center;
+	width: 30%;
+	margin: 0 auto;
 }
