@@ -84,55 +84,6 @@ body {
   }
 }
 
-/*.loginJumbotron {
-  padding-top: 48px;
-  padding-bottom: 48px;
-  margin-bottom: 30px;
-  color: inherit;
-  background: url("/pexels-photo-26960.jpg") center center no-repeat;
-}
-.loginJumbotron h1,
-.loginJumbotron .h1 {
-  color: inherit;
-}
-.loginJumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-.loginJumbotron > hr {
-  border-top-color: #d5d5d5;
-}
-.container .loginJumbotron,
-.container-fluid .loginJumbotron {
-  border-radius: 6px;
-}
-.loginJumbotron .container {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .loginJumbotron {
-  }
-  .container .loginJumbotron,
-  .container-fluid .loginJumbotron {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-  .loginJumbotron h1,
-  .loginJumbotron .h1 {
-    font-size: 63px;
-  }
-}
-
-.form-signin {
-	padding-bottom: 650px;
-}
-
-.login-form {
-	margin: 0 auto;
-	padding: 0 350px;
-}*/
-
 
 /*@import url(http://fonts.googleapis.com/css?family=Roboto);*/
 
@@ -162,7 +113,7 @@ body {
   position: relative;
 }
 
-.loginmodal-container input[type=text], input[type=password] {
+.loginmodal-container input[type=email], input[type=password] {
   height: 44px;
   font-size: 16px;
   width: 100%;
@@ -177,7 +128,7 @@ body {
   -moz-box-sizing: border-box;
 }
 
-.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+.loginmodal-container input[type=email]:hover, input[type=password]:hover {
   border: 1px solid #b9b9b9;
   border-top: 1px solid #a0a0a0;
   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
