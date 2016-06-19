@@ -181,3 +181,45 @@ body {
 .login-help{
   font-size: 12px;
 }
+
+/********/
+
+.login-container {
+  padding: 10px;
+  max-width: 100%;
+  width: 100% !important;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.login-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-container input[type=email], input[type=text] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-container input[type=file] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  padding: 0 8px;
+}
