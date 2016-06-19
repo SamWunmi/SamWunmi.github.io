@@ -21,7 +21,10 @@
   max-width: 50%;
 }
 
-body { padding-top: 60px; }
+body {
+	padding-top: 60px;
+	overflow-y: scroll;
+}
 
 .navbar {
     opacity: 0.8;
@@ -82,7 +85,7 @@ body { padding-top: 60px; }
 }
 
 .loginJumbotron {
-  padding-top: 900px;
+  padding-top: 700px;
   padding-bottom: 48px;
   margin-bottom: 30px;
   color: inherit;
@@ -121,3 +124,4 @@ body { padding-top: 60px; }
     font-size: 63px;
   }
 }
+
