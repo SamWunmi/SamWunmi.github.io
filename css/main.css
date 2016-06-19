@@ -85,7 +85,7 @@ body {
 }
 
 .loginJumbotron {
-  padding-top: 700px;
+  padding-top: 48px;
   padding-bottom: 48px;
   margin-bottom: 30px;
   color: inherit;
@@ -125,3 +125,6 @@ body {
   }
 }
 
+.form-signin {
+	padding-bottom: 650px;
+}
