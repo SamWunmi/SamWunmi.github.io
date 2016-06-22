@@ -22,7 +22,6 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="js/vendor/jquery-3.0.0.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -57,6 +56,7 @@
       <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
           <div class="loginmodal-container">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><br>
             <h1>Login to Your Account</h1><br>
             <form>
               <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required autofocus>
@@ -73,6 +73,7 @@
       <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
           <div class="loginmodal-container">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><br>
             <h1>Sign Up to Eternity</h1><br>
             <form>
               <input type="text" id="firstName" class="form-control" placeholder="First Name" required autofocus>
@@ -158,6 +159,7 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
+        <script src="js/vendor/jquery-3.0.0.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
